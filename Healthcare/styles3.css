@@ -1,0 +1,162 @@
+/* Global Styles */
+:root {
+  --primary-color: #12ac8e;
+  --primary-color-dark: #0d846c;
+  --primary-color-light: #e9f7f7;
+  --secondary-color: #fb234f;
+  --text-dark: #333333;
+  --text-light: #767268;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #f7f7f7;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: zero;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-image: linear-gradient(
+        to right,
+        rgba(18, 172, 142, 0.9),
+        rgba(18, 172, 142, 0.7)
+      ),url(https://github.com/codeaashu/HEALTH-CARE/blob/main/assets/header.jpg?raw=true);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: medium;
+  }
+  
+  header nav ul {
+    list-style: none;
+    align-items: center;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+  .nav__logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(white);
+  }
+
+  .nav__logo span {
+    color: var(orange);
+  }
+
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Services Styles */
+  
+  .services {
+    background-color: #f7f7f7;
+    padding: 40px;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .service {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #337ab7;
+  }
+  
+  .service h2 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .service p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .service .btn {
+    background-color: #12ac8e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .service .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-image: linear-gradient(
+        to right,
+        rgba(18, 172, 142, 0.9),
+        rgba(18, 172, 142, 0.7)
+      ),url(https://github.com/codeaashu/HEALTH-CARE/blob/main/assets/header.jpg?raw=true);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
